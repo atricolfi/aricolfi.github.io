@@ -33,9 +33,9 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
- - /writing.html
- - /teaching.html
- - /slides.html
+ - writing.html
+ - teaching.html
+ - slides.html
 
 # Build settings
 theme: minima
