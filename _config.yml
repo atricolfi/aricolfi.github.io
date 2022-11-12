@@ -35,7 +35,9 @@ minima:
 header_pages:
  - writing.html
  - teaching.html
+ - seminars.html
  - slides.html
+ - supervision.html
 
 # Build settings
 theme: minima
