@@ -41,3 +41,8 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ 
+ header_pages:
+ - teaching.html
+ - writing.html
+ - slides.html
