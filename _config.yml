@@ -3,14 +3,12 @@ author:
   name: You can reach me at
   email: aricolfi@sissa.it
 description: > # this means to ignore newlines until "show_excerpts:"
-address:
-        <address>
-          SISSA <br>
+address:  SISSA <br>
           Via Bonomea 265, 34136, Trieste <br>
           Room A-710 <br>
           Tel: +39 040 3787 855
-        </address>
-  <img src="/MATHS/sissa.jpeg" width="10%">
+
+<img src="/MATHS/sissa.jpeg" width="10%">
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
