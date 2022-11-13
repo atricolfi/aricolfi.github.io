@@ -1,10 +1,36 @@
-<footer>
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
   <div class="wrapper">
+
     <div class="footer-col-wrapper">
+      <div class="footer-col">
+          <a href="{{ 'feed.xml' | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:aricolfi@sissa.it">aricolfi@sissa.it</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
+      </div>
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
       <div class="footer-col footer-col-1">
         you can reach me at:
         <br>
-        &nbsp;&nbsp;<a href="aricolfi@sissa.it">aricolfi@sissa.it</a>
+        &nbsp;&nbsp;<a href="mailto:aricolfi@sissa.it">aricolfi@sissa.it</a>
         <br><br>
         <address>
           &nbsp;&nbsp;SISSA<br>
@@ -13,20 +39,11 @@
           &nbsp;&nbsp;Tel: +39 040 3787 855
         </address>
       </div>
-      
-           <div class="footer-col footer-col-1">
-          <img src="/MATHS/sissa.jpeg" width="65%">   # Logo SISSA
-           </div>
-    
-      <div class="footer-col footer-col-1">
-        you can also find me on
-        <ul class="social-media-list">
-          <li>{% include icon-github.html username="aricolfi" %}
-          <li>{% include icon-orcid.html id="0000-0002-8172-2026" %}
-          <li>{% include icon-scholar.html username="Ohw5j6MAAAAJ" %}
-        </ul>
-      </div>
-      
-    </div>
+  
+          <div class="footer-col footer-col-1">
+             <img src="/MATHS/sissa.jpeg" width="65%">
+          </div>
+
   </div>
+
 </footer>
