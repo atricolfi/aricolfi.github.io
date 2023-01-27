@@ -30,10 +30,10 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - darkskies.html
+ - distractions.html
  - writing.html
  - teaching.html
  - seminars.html
- - slides.html
  - supervision.html
 
 # Build settings
